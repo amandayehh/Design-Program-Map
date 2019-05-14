@@ -1,0 +1,56 @@
+body{
+  background-color: #EAEAEA;
+}
+.container{
+  padding: 1em;
+}
+.tags{
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.13);
+  border: 1.5em solid white;
+  background-color: white;
+}
+
+.tags:hover{
+  z-index: 100;
+}
+
+.name{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1em;
+  line-height: 2em;
+  padding-bottom: 1em;
+}
+
+.scale{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+  z-index: -10;
+  color: #00CE78;
+  position: fixed;
+
+}
+
+.analog{
+  transform: translate(0px, 49vh);
+}
+
+.digital{
+  right: 1em;
+  top: 49vh;
+}
+
+.process{
+  transform: translate(47vw, 0px);
+}
+
+.result{
+  bottom: 1em;
+  left: 48vw;
+}
+
+.hor {
+  width:100vw;
+  height:5px;
+  top: 50px;
+}
